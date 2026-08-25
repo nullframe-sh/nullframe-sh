@@ -44,7 +44,7 @@ Education platforms, delivery infrastructure, and tooling for reliable AI-assist
   <img alt="Bitefight Docker — restoration environment, public source" src="./assets/project-bitefight-docker-light.svg" width="400">
 </picture>
 
-**[Bitefight Docker](https://github.com/OrobasDev/bitefight-docker)** restores a legacy browser-game codebase as a local Docker environment and progressively repairs its application and gameplay flows.
+**[Bitefight Docker](https://github.com/nullframe-sh/bitefight-docker)** restores a legacy browser-game codebase as a local Docker environment and progressively repairs its application and gameplay flows.
 
 ---
 
@@ -61,6 +61,6 @@ Education platforms, delivery infrastructure, and tooling for reliable AI-assist
 ## Elsewhere
 
 - `nullframe.sh` — portfolio home in preparation
-- [`@OrobasDev`](https://github.com/OrobasDev) — current GitHub handle
+- [`@nullframe-sh`](https://github.com/nullframe-sh) — current GitHub handle
 
 
