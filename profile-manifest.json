@@ -29,15 +29,6 @@
   "projects": [
     {
       "index": "01",
-      "slug": "lecturemind",
-      "name": "LECTUREMIND",
-      "status": "IN DEVELOPMENT",
-      "visibility": "PRIVATE SOURCE",
-      "year": "2026",
-      "rail": "warning"
-    },
-    {
-      "index": "02",
       "slug": "gate-w",
       "name": "GATE W",
       "status": "IN DEVELOPMENT",

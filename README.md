@@ -41,7 +41,6 @@ Neben der Anwendungsentwicklung verwalte ich eigene Server und setze mich praxis
 ## 📂 Weitere Projekte
 
 * **[Bitefight Docker](https://github.com/nullframe-sh/bitefight-docker):** Öffentliches Repository mit einer Docker-Umgebung zur lokalen Ausführung und Entwicklung eines klassischen Browsergame-Codebestands.
-* **LectureMind:** Lernplattform zur Strukturierung und Aufbereitung von Kursmaterialien (in Entwicklung).
 
 ---
 
