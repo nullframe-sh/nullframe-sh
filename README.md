@@ -4,63 +4,47 @@
   <img alt="NullFrame — Software, Tooling, Infrastructure" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-# nullframe
+# Philipp Schott · nullframe
 
-**Software · Tooling · Infrastructure**
+**Umschüler zum Fachinformatiker für Anwendungsentwicklung in Kaiserslautern.**
 
-Education platforms, delivery infrastructure, and tooling for reliable AI-assisted engineering. Occasionally, games.
+Ich arbeite an Software, die konkrete Schwierigkeiten aus meinem Lernalltag aufgreift. Mein Schwerpunkt im eigenen Projekt liegt auf Nutzeranforderungen, verständlicher Bedienung, Fehlersuche und der Prüfung von Änderungen.
 
----
+Ich suche eine **betriebliche Praxisphase in der Anwendungsentwicklung** im Raum Kaiserslautern. Im Team möchte ich eigenständiger programmieren, sinnvolle Tests schreiben und die Zusammenarbeit mit Git sowie CI/CD vertiefen.
 
-## Current
+[Portfolio](https://nullframe.sh) · [Kontakt](mailto:phsc@nullframe.sh)
 
-- `2026.08 / LECTUREMIND` — Establishing the production foundation and controlled deployment path.
-- `2026.08 / NULLFRAME` — Building the public portfolio and its small, secure infrastructure baseline.
-- `2026.08 / DELIVERY` — Developing evidence-driven qualification gates for repeatable engineering work.
+## Hauptprojekt
 
----
+### [eCrampus](projects/ecrampus/README.md)
 
-## Selected systems
+Ein Desktop-Client, der Kursmaterialien und Lernangebote bündelt und die Berichtsheftführung automatisiert.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-lecturemind-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-lecturemind-light.svg">
-  <img alt="LectureMind — in development, private source" src="./assets/project-lecturemind-light.svg" width="400">
-</picture>
+- **Praktische Nutzung:** aktuell etwa 10–12 täglich aktive Teilnehmer in meinem Kurs mit 22 Teilnehmern; eigene Schätzung, Stand Oktober 2026.
+- **Mein Beitrag:** Anforderungen und Design, Fehler eingrenzen, Rückmeldungen aus dem Kurs aufgreifen sowie automatisierte Testläufe und lokale Funktionsprüfungen.
+- **Projektstack:** Electron, React und TypeScript.
+- **Arbeitsweise:** umfangreich KI-gestützte Umsetzung mit anschließender Prüfung der Ergebnisse; eigenständige Programmierkenntnisse im Aufbau.
 
-**LectureMind** is a learning platform for structured course material, training workflows, and classroom delivery. Its source remains private while the production and privacy foundations are completed.
+[Projektvorstellung und Arbeitsweise](projects/ecrampus/README.md)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-gate-w-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-gate-w-light.svg">
-  <img alt="Gate W — qualification harness, private source" src="./assets/project-gate-w-light.svg" width="400">
-</picture>
+## Eigene Infrastruktur
 
-**Gate W** is an evidence-driven qualification harness for repeatable Windows verification and controlled release gates.
+Ich betreibe einen Edge-Server und einen getrennten Origin-Server mit Debian 13, Cloudflare und Docker-Anwendungen. Ich administriere die Server über SSH und konfiguriere die eingesetzten Dienste anhand technischer Dokumentation.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-bitefight-docker-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/project-bitefight-docker-light.svg">
-  <img alt="Bitefight Docker — restoration environment, public source" src="./assets/project-bitefight-docker-light.svg" width="400">
-</picture>
+Mich interessiert, wie Software von einer Idee bis zum zuverlässigen Betrieb gelangt. Langfristig möchte ich mich in Richtung DevOps weiterentwickeln.
 
-**[Bitefight Docker](https://github.com/nullframe-sh/bitefight-docker)** restores a legacy browser-game codebase as a local Docker environment and progressively repairs its application and gameplay flows.
+## Weitere Projekte
 
----
+- **LectureMind:** Lernplattform für strukturierte Kursmaterialien; Projekt in Entwicklung.
+- **[Bitefight Docker](https://github.com/nullframe-sh/bitefight-docker):** öffentliches Repository zu einer Docker-Umgebung für einen älteren Browsergame-Codebestand.
 
-## Capabilities
+## Hintergrund
 
-| Software | Tooling | Infrastructure |
-| --- | --- | --- |
-| Learning platforms | Qualification harnesses | Docker and Compose |
-| Web applications | CLI workflows | Linux services |
-| Structured content systems | AI-assisted engineering workflows | Deployment foundations |
+Seit Mai 2026 absolviere ich meine FIAE-Umschulung bei WBS TRAINING. Zuvor war ich mehrere Jahre ziviler Polizeimitarbeiter bei den US-Streitkräften. Aus dieser Tätigkeit bringe ich Erfahrung mit Verantwortung, klaren Abläufen, sorgfältiger Dokumentation und Zusammenarbeit mit.
 
----
+Mein IT-Interesse begann während der Schulzeit mit privaten Serverprojekten und SQL-basierten Fehlerkorrekturen in Community-Projekten.
 
-## Elsewhere
+## Kontakt
 
-- `nullframe.sh` — portfolio home in preparation
-- [`@nullframe-sh`](https://github.com/nullframe-sh) — current GitHub handle
-
-
+**Philipp Schott** · Kaiserslautern  
+[phsc@nullframe.sh](mailto:phsc@nullframe.sh) · [nullframe.sh](https://nullframe.sh)
