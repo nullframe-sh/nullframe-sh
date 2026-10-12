@@ -16,7 +16,7 @@ Mein Hauptprojekt ist ein Desktop-Client für den Unterrichtsalltag bei WBS. Sta
 
 ### Praxis und Nutzung
 
-* **Täglicher Einsatz:** In meiner Kursgruppe mit 22 Teilnehmern nutzen nach meiner Schätzung etwa 10–12 Personen die App jeden Tag (eigene Schätzung anhand von Rückmeldungen im Kurs).
+* **Täglicher Einsatz:** In meiner Kursgruppe mit 22 Teilnehmern nutzen nach meiner Schätzung etwa 10–12 Personen die App jeden Tag (anhand eines freiwilligen Online-Zählers innerhalb des Clients ermittelt).
 * **Technik:** Electron, React, TypeScript.
 * **Browser-Showcase:** Die verlinkte Live-Demo zeigt die Original-Oberfläche im Browser mit frei erfundenen Beispieldaten und ohne Verbindung zu WBS-Systemen.
 
