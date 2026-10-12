@@ -2,7 +2,7 @@
 
 ### Fachinformatiker für Anwendungsentwicklung in Umschulung · Kaiserslautern
 
-Ich lerne Fachinformatiker für Anwendungsentwicklung bei WBS TRAINING und suche eine **betriebliche Praxisphase** im Raum Kaiserslautern.
+Ich lerne Fachinformatiker für Anwendungsentwicklung bei WBS TRAINING AG und suche eine **betriebliche Praxisphase** im Raum Kaiserslautern.
 
 Am liebsten baue ich Werkzeuge, die echte Reibungspunkte aus meinem Alltag lösen: Abläufe vereinfachen, Sucherei beenden und Software so gestalten, dass man sie ohne Anleitung versteht.
 
