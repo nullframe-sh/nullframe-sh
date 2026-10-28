@@ -2,69 +2,58 @@
 
 **Desktop-Client für einen übersichtlicheren Lernalltag während meiner FIAE-Umschulung.**
 
-eCrampus bündelt Kursmaterialien und Lernangebote und automatisiert die Berichtsheftführung. Das Projekt entstand aus wiederkehrenden Schwierigkeiten in meinem eigenen Unterricht und wird in meinem Kurs tatsächlich genutzt.
+eCrampus bündelt Kursunterlagen, Berichtsheft, Prüfungsergebnisse und Posteingang der Lernplattform in einer Windows-Anwendung und meldet Neuigkeiten von selbst. Das Projekt entstand aus wiederkehrenden Schwierigkeiten in meinem eigenen Unterricht. Es ist mein eigenständiges Projekt und kein offizielles Angebot der WBS.
 
-[Portfolio](https://nullframe.sh) · [Kontakt](mailto:phsc@nullframe.sh)
+[Live-Demo mit fiktiven Daten](https://nullframe-sh.github.io/ecrampus-showcase/) · [Showcase-Repository](https://github.com/nullframe-sh/ecrampus-showcase) · [Portfolio](https://nullframe.sh) · [Kontakt](mailto:phsc@nullframe.sh)
 
 ## Ausgangspunkt
 
-Im Lernalltag wechselte ich häufig zwischen Angeboten, suchte Inhalte und erledigte wiederkehrende Dokumentationsaufgaben. Viele neu geöffnete Tabs erschwerten die Orientierung. Daraus entstand die Idee, wichtige Abläufe in einem Desktop-Client zusammenzuführen.
+Im Lernalltag wechselte ich ständig zwischen Kursordnern, Lerninhalten, Prüfungsergebnissen und Posteingang und erledigte jede Woche dieselben Schritte für das Berichtsheft. Daraus entstand die Idee, diese Abläufe in einem Desktop-Client zusammenzuführen.
 
-Mein Produktziel: Nutzer sollen morgens schnell finden, was sie benötigen, ohne sich erst durch eine lange Erklärung arbeiten zu müssen.
+Mein Produktziel: Wer morgens die Anwendung öffnet, soll sofort sehen, was heute ansteht, ohne sich erst durch eine Anleitung arbeiten zu müssen.
 
-## Funktionen und Nutzen
+## Funktionen
 
-| Funktion | Nutzen im Alltag |
+| Bereich | Was er im Alltag leistet |
 | --- | --- |
-| Gebündelte Kursmaterialien und Lernangebote | Inhalte über einen gemeinsamen Einstieg erreichen |
-| Automatisierte Berichtsheftführung | Wiederkehrende Dokumentationsarbeit vereinfachen |
-| Übersichtliche Navigation | Suchaufwand und Wechsel zwischen Ansichten verringern |
-| Kontinuierliche Anpassungen an Nutzerfeedback | Tatsächliche Schwierigkeiten aus dem Unterricht aufgreifen |
+| Heute | Tagesüberblick aus bereits geladenen Daten: Unterricht, Termine, neue Unterlagen und Nachrichten |
+| Kursmaterial | Ordnerbaum, Dateitabelle und Vorschau statt vieler Browser-Tabs |
+| Berichtsheft | Wochenansicht mit Stunden und Vorbefüllung; eigene Einträge bleiben unangetastet |
+| Prüfungen und Posteingang | Ergebnisse und Nachrichten an einem Ort, Benachrichtigung bei Neuem |
+| Hilfe | F1-Hilfe je Bereich und ein geführter Rundgang für neue Nutzer |
 
 ## Nutzung
 
-Nach meiner aktuellen Schätzung nutzen **10–12 Teilnehmer täglich** eCrampus in meinem Kurs mit 22 Teilnehmern.
+Laut integriertem Online-Zähler nutzen 10–12 der 22 Teilnehmenden meines Kurses eCrampus aktiv (Stand Oktober 2026). Der Zähler lässt sich in der Anwendung abschalten und überträgt nur eine zufällige Kennung pro App-Start.
 
-Stand: Oktober 2026; eigene Schätzung. Rückmeldungen aus dem Kurs betreffen besonders die Berichtsheft-Automatisierung, das übersichtliche Design und die vereinfachte Navigation.
+## Meine Arbeit daran
 
-## Mein Beitrag
-
-Ich habe das Projekt angestoßen und beschäftige mich mit Anforderungen, Bedienbarkeit, Design und der kontinuierlichen Verbesserung.
-
-- Nutzerprobleme aus meinem Unterricht erkennen und in konkrete Änderungswünsche übersetzen.
-- Code und Fehlermeldungen lesen und Probleme eingrenzen.
-- Änderungen und Korrekturen mit umfangreicher KI-Unterstützung umsetzen lassen.
-- Ergebnisse anhand automatisierter Tests und lokaler Prüfungen beurteilen.
-- Rückmeldungen aus dem Kurs aufnehmen und weitere Verbesserungen priorisieren.
-
-Ich baue meine eigenständigen Programmierkenntnisse während der Umschulung weiter auf.
+- Funktionen und Bedienabläufe festlegen und Rückmeldungen aus dem Kurs einarbeiten.
+- Fehler über Konsole, Logdateien und Entwicklerwerkzeuge verfolgen und im Code eingrenzen.
+- Den Code mit KI-Unterstützung erstellen und dort lesen, wo es auf Logik und Daten ankommt.
+- Fehlschlagende Tests lesen und festlegen, welches Verhalten ein Regressionstest absichern soll.
+- Releases betreuen: Installer bauen, Installations- und Upgrade-Test, Verteilung über meinen eigenen Update-Server.
 
 ## Qualitätssicherung
 
-Vor Veröffentlichungen nutze ich automatisierte Tests und prüfe die Anwendung anschließend lokal. Dabei achte ich insbesondere auf:
+Vor jeder Veröffentlichung laufen Typprüfung, Linting und die automatisierten Tests; danach prüfe ich Installation und Upgrade auf Testinstallationen. Dabei achte ich besonders darauf, dass
 
-- vollständig sichtbare Inhalte und passende Fensterlayouts;
-- verständliche Navigation und einfache Zugänge zu häufig genutzten Funktionen;
-- Ladeverhalten und flüssige Abläufe;
-- korrekt übernommene Änderungen und das erwartete Verhalten der betroffenen Funktionen.
-
-Bei Fehlern lese ich die Meldungen, grenze das Problem ein und nutze KI häufig zur Korrektur. Anschließend überprüfe ich das Ergebnis erneut.
+- nach einem Kontowechsel keine Daten des vorherigen Kontos erscheinen,
+- eigene Berichtsheft-Einträge bei der Vorbefüllung erhalten bleiben,
+- Inhalte und Fensterlayouts vollständig sichtbar sind.
 
 ## Technologien
 
 | Technologie | Einsatz |
 | --- | --- |
-| Electron | Desktop-Anwendung |
-| React | Benutzeroberfläche |
-| TypeScript | Umsetzung der Anwendung |
+| Electron | Desktop-Anwendung mit getrennten Main-, Preload- und Renderer-Prozessen |
+| React, TypeScript | Benutzeroberfläche und Anwendungslogik |
+| Jest | Automatisierte Tests |
+| electron-builder, electron-updater | Windows-Installer und Auto-Update |
 
-## Projektvorstellung und Quellcode
+## Quellcode
 
-Diese Seite dokumentiert das Produkt und meinen Beitrag. Der Anwendungsquellcode bleibt privat.
-
-Eine persönliche Demonstration der Anwendung ist auf Anfrage möglich. Screenshots und ein kurzes Demo-Video können die Vorstellung ergänzen, sobald geeignete Aufnahmen vorliegen.
-
-eCrampus ist ein eigenständiges Teilnehmerprojekt.
+Der Quellcode der Desktop-Anwendung ist nicht öffentlich. Die Oberfläche lässt sich in der [Live-Demo](https://nullframe-sh.github.io/ecrampus-showcase/) mit fiktiven Daten ausprobieren.
 
 ## Kontakt
 

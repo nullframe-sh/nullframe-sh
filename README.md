@@ -1,46 +1,43 @@
+
 <img src="assets/hero.gif" alt="Philipp Schott · nullframe.sh" width="100%">
 
 ### Fachinformatiker für Anwendungsentwicklung in Umschulung · Kaiserslautern
 
-Ich lerne Fachinformatiker für Anwendungsentwicklung bei WBS TRAINING AG und suche eine **betriebliche Praxisphase** im Raum Kaiserslautern.
+Seit Mai 2026 mache ich bei WBS TRAINING AG die Umschulung zum Fachinformatiker für Anwendungsentwicklung und suche ab dem 16.08.2027 eine **betriebliche Praxisphase** im Raum Kaiserslautern.
 
-Am liebsten baue ich Werkzeuge, die echte Reibungspunkte aus meinem Alltag lösen: Abläufe vereinfachen, Sucherei beenden und Software so gestalten, dass man sie ohne Anleitung versteht.
+Mit IT beschäftige ich mich seit meiner Jugend: Ich habe Server für Online-Communitys betrieben und über Jahre deren SQL-Datenbanken gepflegt. Heute arbeite ich täglich an eigenen Projekten mit TypeScript, React und Electron und betreibe eigene Linux-Server.
 
 [Portfolio](https://nullframe.sh/) · [Kontakt](mailto:phsc@nullframe.sh)
 
 ## eCrampus
 
-Mein Hauptprojekt ist ein Desktop-Client für den Unterrichtsalltag bei WBS. Statt ständig zwischen eCampus-Tabs, Kursordnern, Prüfungsergebnissen und dem Posteingang hin- und herzuwechseln, bringt eCrampus alles an einem Ort zusammen – inklusive Vorbefüllung für das wöchentliche Berichtsheft.
+Desktop-Client für den Unterrichtsalltag in meiner Umschulung: Kursunterlagen, Berichtsheft, Prüfungsergebnisse und Posteingang der Lernplattform in einer Anwendung, dazu eine Vorbefüllung für das Berichtsheft. eCrampus ist mein eigenständiges Projekt und kein offizielles Angebot der WBS.
 
-[Live-Demo ausprobieren](https://nullframe-sh.github.io/ecrampus-showcase/) · [Showcase-Repository](https://github.com/nullframe-sh/ecrampus-showcase) · [Projektvorstellung](https://github.com/nullframe-sh/nullframe-sh/tree/main/projects/ecrampus)
+* **Nutzung:** Laut integriertem Online-Zähler nutzen 10–12 der 22 Teilnehmenden meines Kurses eCrampus aktiv (Stand Oktober 2026).
+* **Technik:** Electron, React und TypeScript mit getrennten Main-, Preload- und Renderer-Prozessen, Sitzungs- und Kontotrennung sowie Hintergrundabfragen mit Windows-Benachrichtigungen.
+* **Auslieferung:** über 20 Versionen (1.0 bis 2.5), Windows-Installer und Auto-Update über meinen eigenen Update-Server.
 
-### Praxis und Nutzung
+[Live-Demo mit fiktiven Daten](https://nullframe-sh.github.io/ecrampus-showcase/) · [Showcase-Repository](https://github.com/nullframe-sh/ecrampus-showcase) · [Projektvorstellung](projects/ecrampus)
 
-* **Täglicher Einsatz:** In meiner Kursgruppe mit 22 Teilnehmern nutzen nach meiner Schätzung etwa 10–12 Personen die App jeden Tag (anhand eines freiwilligen Online-Zählers innerhalb des Clients ermittelt).
-* **Technik:** Electron, React, TypeScript.
-* **Browser-Showcase:** Die verlinkte Live-Demo zeigt die Original-Oberfläche im Browser mit frei erfundenen Beispieldaten und ohne Verbindung zu WBS-Systemen.
+### Meine Arbeit daran
 
-### Mein Anteil am Projekt
+Ich lege fest, welche Funktionen es gibt und wie sie sich bedienen, und arbeite Rückmeldungen aus dem Kurs ein. Fehler verfolge ich über Konsole, Logdateien und Entwicklerwerkzeuge und grenze sie im Code ein. Den Code erstelle ich mit KI-Unterstützung; ich lese ihn dort, wo es auf Logik und Daten ankommt, und prüfe jede neue Version mit automatisierten Tests sowie einem Installations- und Upgrade-Test, bevor ich sie veröffentliche.
 
-Ich kenne die täglichen Hürden im Kurs aus erster Hand. Ich lege fest, welche Funktionen gebraucht werden, gestalte die Oberflächen und probiere neue Versionen direkt aus.
+## Server und Infrastruktur
 
-Den Programmcode lasse ich weitgehend mit KI-Unterstützung schreiben. Meine eigene Arbeit besteht darin, Fehlermeldungen nachzugehen, Ursachen einzugrenzen, das Zusammenspiel der Ansichten zu testen und Wünsche meiner Mitschüler schrittweise einzubauen.
+Zwei eigene Debian-Server, selbst eingerichtet und betrieben:
 
-## Eigene Infrastruktur
+* SSH, Docker Compose, Caddy als Webserver, DNS über Cloudflare und TLS-Zertifikate
+* eigene Dienste für die eCrampus-Updates, den Online-Zähler und die Kursinhalte, dazu mein Portfolio und das UML Lernstudio
+* Fehlersuche direkt im Terminal und in den Logdateien
 
-Neben der Anwendungsentwicklung beschäftige ich mich gern mit praktischem Serverbetrieb:
+## Weiteres Projekt
 
-* **Debian-Server:** Ich betreibe zwei eigene Server (Edge und Origin) mit Debian 13.
-* **Administration:** Zugriff über SSH, Containerisierung mit Docker und Routing über Cloudflare.
-* **Arbeitsweise:** Dienste richte ich eigenständig anhand technischer Dokumentationen ein und suche Fehler direkt im Terminal und in Logdateien.
-
-## Weitere Projekte
-
-* [Bitefight Docker](https://github.com/nullframe-sh/bitefight-docker): Docker-Umgebung für einen bestehenden Browsergame-Codebestand.
+* [UML Lernstudio](https://uml.nullframe.sh/): Webanwendung zum Üben von Anwendungsfall-, Aktivitäts- und Klassendiagrammen mit lokalem Regelcheck. Struktur und Aufbau der Anwendung habe ich festgelegt.
 
 ## Hintergrund
 
-Vor meiner Umschulung habe ich mehrere Jahre als ziviler Polizeimitarbeiter bei den US-Streitkräften gearbeitet. Aus dieser Zeit bringe ich einen klaren Blick für Verantwortung, strukturierte Abläufe und verlässliche Dokumentation mit. Mein Interesse an IT begann schon früher mit privaten Linux-Servern und SQL-Datenbanken.
+Vor der Umschulung war ich acht Jahre ziviler Polizeiangestellter bei den US-Streitkräften. Aus dieser Zeit bringe ich Sorgfalt, Verantwortungsbewusstsein, genaue Dokumentation und sehr gutes Englisch mit.
 
 ## Kontakt
 
