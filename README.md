@@ -3,7 +3,7 @@
 
 ### Fachinformatiker für Anwendungsentwicklung in Umschulung · Kaiserslautern
 
-Seit Mai 2026 mache ich bei WBS TRAINING AG die Umschulung zum Fachinformatiker für Anwendungsentwicklung und suche ab dem 16.08.2027 eine **betriebliche Praxisphase** im Raum Kaiserslautern.
+Seit Mai 2026 mache ich bei der WBS GRUPPE die Umschulung zum Fachinformatiker für Anwendungsentwicklung und suche ab dem 16.08.2027 eine **betriebliche Praxisphase** im Raum Kaiserslautern.
 
 Mit IT beschäftige ich mich seit meiner Jugend: Ich habe Server für Online-Communitys betrieben und über Jahre deren SQL-Datenbanken gepflegt. Heute arbeite ich täglich an eigenen Projekten mit TypeScript, React und Electron und betreibe eigene Linux-Server.
 
@@ -33,7 +33,7 @@ Zwei eigene Debian-Server, selbst eingerichtet und betrieben:
 
 ## Weiteres Projekt
 
-* [UML Lernstudio](https://uml.nullframe.sh/): Webanwendung zum Üben von Anwendungsfall-, Aktivitäts- und Klassendiagrammen mit lokalem Regelcheck. Struktur und Aufbau der Anwendung habe ich festgelegt.
+* [UML Lernstudio](https://uml.nullframe.sh/): Webanwendung zum Üben von Anwendungsfall-, Aktivitäts- und Klassendiagrammen mit lokalem Regelcheck und KI-Lernbegleiter, der Diagramme bespricht und Lösungen zeichnet. Struktur und Aufbau der Anwendung habe ich festgelegt.
 
 ## Hintergrund
 

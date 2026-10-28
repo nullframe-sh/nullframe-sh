@@ -1,6 +1,6 @@
 # eCrampus
 
-**Desktop-Client für einen übersichtlicheren Lernalltag während meiner FIAE-Umschulung.**
+**Desktop-Client für einen übersichtlicheren Lernalltag während meiner Umschulung zum Fachinformatiker für Anwendungsentwicklung.**
 
 eCrampus bündelt Kursunterlagen, Berichtsheft, Prüfungsergebnisse und Posteingang der Lernplattform in einer Windows-Anwendung und meldet Neuigkeiten von selbst. Das Projekt entstand aus wiederkehrenden Schwierigkeiten in meinem eigenen Unterricht. Es ist mein eigenständiges Projekt und kein offizielles Angebot der WBS.
 
